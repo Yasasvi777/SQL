@@ -50,4 +50,4 @@ SELECT NameofSalesRep, SUM(Sales) AS Total_sales
 FROM pharmadf
 GROUP BY NameofSalesRep
 ORDER BY Total_sales DESC
-LIMIT 3;
+LIMIT 5;
